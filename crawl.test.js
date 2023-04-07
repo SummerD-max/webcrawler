@@ -97,7 +97,7 @@ test('getURLsFromHTML invalid', () => {
             Boot.dev Blog
         </a>
     </body>
-</html>
+</html> 
 `
     const inputBaseURL = "https://blog.boot.dev"
     const actual = getURLsFromHTML(inputHTMLBody, inputBaseURL)
